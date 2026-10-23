@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brain Viewer</title>
+    <script type="module" crossorigin src="/assets/index-BmrNb_6Y.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CqnxHwkP.css">
+  </head>
+  <body>
+    <main id="app">
+      <section id="viewport" aria-label="Interactive 3D brain model">
+        <div id="controls">
+          <span id="status">Loading model...</span>
+          <button id="reset-view" type="button">Reset view</button>
+          <button id="quiz-button" type="button">Start quiz</button>
+        </div>
+        <p id="loading">Loading model...</p>
+        <p id="error" hidden></p>
+        <div id="region-label" hidden>
+          <strong id="region-label-name"></strong>
+          <span id="region-label-description">Description coming soon.</span>
+          <button id="region-toggle-disabled" type="button"></button>
+        </div>
+        <div id="quiz-modal" hidden>
+          <div id="quiz-card" role="dialog" aria-modal="true" aria-labelledby="quiz-title">
+            <button id="quiz-close" type="button" aria-label="Close quiz">Close</button>
+            <h2 id="quiz-title">Region quiz</h2>
+            <p id="quiz-progress"></p>
+            <p id="quiz-question"></p>
+            <div id="quiz-options"></div>
+            <p id="quiz-result" hidden></p>
+            <button id="quiz-next" type="button" hidden>Next</button>
+          </div>
+        </div>
+        <div id="region-reference" hidden>
+          <img id="region-image" src="" alt="" />
+          <div id="region-reference-text"></div>
+        </div>
+        <span id="model-title" hidden></span>
+        <span id="mesh-info" hidden></span>
+      </section>
+    </main>
+  </body>
+</html>

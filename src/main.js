@@ -65,7 +65,7 @@ const DEFAULT_REGION_DESCRIPTIONS = new Map([
   [6, 'The premotor cortex is an area of the frontal lobe that is involved in planning and coordinating voluntary movements.'],
   [7, 'Wernicke\'s area is located in the left temporal lobe and helps you understand spoken and written language.'],
   [9, 'The parietal lobe is located above the temporal lobes. It recieves sensory information and processes spatial relationships.'],
-  [11, 'The primary motor cortex, located behind the premotor cortex, is responsible for executing voluntary movements bysending commands to muscles.'],
+  [11, 'The primary motor cortex, located behind the premotor cortex, is responsible for executing voluntary movements by sending commands to muscles.'],
   [12, 'The auditory cortexes, located in the temporal lobes above the ears, are responsible for processing sound and hearing information.'],
   [13, 'Broca\'s area is located in the left hemisphere and is helps you to produce speech.'],
 ]);
